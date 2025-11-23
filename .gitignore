@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Images / datasets (keep your repo small)
+Dataset/
+AIA_1600/
+AIA1600_Labels/
+Folder1/
+Folder2/
+images/
+out/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Logging / temp
+*.log
+tmp/
+temp/
