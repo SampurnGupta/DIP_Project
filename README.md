@@ -8,6 +8,10 @@ This project includes:
 - **ROI DIP operations** (Equalization, CLAHE, Gaussian Blur, Sharpen, LBP, HOG, Gabor, Edges, etc.)
 - **1600 Å style solar UV simulator**
 
+## DataSet used:
+https://zenodo.org/records/4435219
+now the images are enhanced via a DIP Pipeline then the Rectangle Sections from the labels are extracted and used to train ML Model. (the entire image is not used ot train the ML Model)
+
 ## 📁 Project Overview
 
 ### 1. Annotation Viewer  
@@ -48,6 +52,7 @@ project/
 ├── app_1600_style.py
 ├── README.md
 ├── requirements.txt
-├── Folder1/
-└── Folder2/
+├── Folder1/ containes the images of all the classes (b,c,m,x: refer original Dataset) Combined!
+├── models/  contains all the trained ML Models
+└── Folder2/ contains the labels corresponding to the images in folder1
 ```

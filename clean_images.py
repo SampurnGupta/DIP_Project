@@ -1,3 +1,9 @@
+# File for cleaning up images without corresponding label files
+# This script deletes images in a specified folder that do not have corresponding
+# .txt label files in another specified folder. ie. it matches filenames (without extensions) across two folders.
+# Currently Folder 1 is for images and Folder 2 is for .txt labels.
+# Folder 1 has around 1500+ images whereas Folder 2 has only around 1300 .txt labels.
+
 import os
 from pathlib import Path
 

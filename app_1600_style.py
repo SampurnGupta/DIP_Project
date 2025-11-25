@@ -1,3 +1,6 @@
+# Python script to simulate 1600 Å–style solar images from visible-light photos.
+# Uses OpenCV for image processing and Streamlit for the web UI.
+
 import cv2
 import numpy as np
 import streamlit as st
